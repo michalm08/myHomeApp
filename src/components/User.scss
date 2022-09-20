@@ -1,0 +1,59 @@
+.user {
+  display: flex;
+  border-bottom: 1px solid #a4a4a4;
+  padding: 4px;
+  background-color: #efefef;
+  transition: background-color 0.3s;
+
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+  }
+
+  &__avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+
+  &__custom-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: white;
+
+    p {
+      color: grey;
+      font-size: 22px;
+      letter-spacing: -3px;
+    }
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__email {
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  &:hover {
+    background-color: rgba(73, 167, 137, 0.2);
+    cursor: pointer;
+  }
+
+  &--selected {
+    background-color: rgba(73, 167, 137, 0.4);
+    &:hover {
+      background-color: rgba(73, 167, 137, 0.3);
+    }
+  }
+}
