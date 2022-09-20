@@ -11,9 +11,7 @@ I also used: sass, axios, prettier.
 
 ## How to run localy
 
-In the project directory, you can run:
-
-Open terminal and type:
+Open terminal in your directory and type:
 ##### `git clone https://github.com/michalm08/myHomeApp.git`
 ##### `cd myHomeApp`
 ##### `npm i`
