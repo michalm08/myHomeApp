@@ -13,8 +13,11 @@ I also used: sass, axios, prettier.
 
 In the project directory, you can run:
 
-### `npm i`
-### `npm start`
+Open terminal and type:
+##### `git clone https://github.com/michalm08/myHomeApp.git`
+##### `cd myHomeApp`
+##### `npm i`
+##### `npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
