@@ -13,11 +13,7 @@ const User: React.FC<UserProps> = ({ user, handleSelectedUser }) => {
       {user.show ? (
         <div className={`user ${user.selected ? 'user--selected' : ''}`} onClick={() => handleSelectedUser(user.id)}>
           {user.avatar ? (
-            <img
-              className="user__avatar"
-              src={user.avatar ? user.avatar : 'https://www.google.pl/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'}
-              alt={`Avatar of: ${user.first_name} ${user.last_name}`}
-            />
+            <img className="user__avatar" src={user.avatar} alt={`Avatar of: ${user.first_name} ${user.last_name}`} />
           ) : (
             <div className="user__custom-avatar">
               <p> {`${user.first_name[0]} ${user.last_name[0]}`}</p>
