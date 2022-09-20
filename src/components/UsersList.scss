@@ -1,4 +1,6 @@
 .users-list {
+  overflow: scroll;
+  height: 100vh;
 
   //loader copied from https://www.w3schools.com/howto/howto_css_loader.asp
   .loader-container {
